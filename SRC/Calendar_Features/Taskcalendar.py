@@ -1,5 +1,4 @@
 import dearpygui.dearpygui as dpg
-import SRC.GUI.guifunctions as gui
 import SRC.Task_Features.Sorting_Features.sortingmethods as sm
 import pandas as pd
 # IMPORT CSV FILE HERE FOR READING OR HAVE A DIFFERENT METHOD TO GRAB ATTRIBUTES TO DISPLAY ON CALENDAR.

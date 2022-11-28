@@ -2,7 +2,6 @@ import pandas as pd
 import SRC.Calendar_Features.Taskcalendar as TC
 import dearpygui.dearpygui as dpg
 
-#These can probably be combined into one file tbh
 def sortDueDate():
   dpg.delete_item("Cal Window")
   taskCsv = pd.read_csv("task_list.csv")

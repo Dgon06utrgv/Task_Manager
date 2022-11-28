@@ -1,7 +1,5 @@
 import datetime
 
-
-
 class Task: 
   def __init__(self,name, date=(datetime.date.today()).strftime("%m/%d/%Y"), time="23:59:59" , priority="low", type="math", description="", status="incomplete"):
     self.name = name

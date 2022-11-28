@@ -30,7 +30,6 @@ def printTabs(filename):
         dpg.add_text(file.iloc[i]['description'])
         dpg.add_text(file.iloc[i]['status'])
         #set buttons as "Mark as complete", "set to in-progress",and "Discard Task"
-        #set as complete button would be the "done!" function whereas it would be erased and sent to archives ('assignment name: done on (date submitted)'. ) should also be able to refresh the main window with updated tabs.
         with dpg.group(horizontal=True):
           dpg.add_button(label='Mark as complete',callback=set_to_complete,user_data=i)
           #set to in-progress button: should change the status on the specific tab item and update the main window
@@ -235,7 +234,6 @@ def background():
 
 def reminder_win(rem_num):
   #time left is denoted by the "get_reminder" variable
-  #error: reminder does not iterate through the file to search for hours satisfied to the reminder hour.
   file = pd.read_csv("task_list.csv")
   i = 0
   while (i < len(file)):

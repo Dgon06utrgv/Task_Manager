@@ -1,7 +1,4 @@
-from SRC.GUI.taskgui import *
-from SRC.Task_Features.task import Task
 import pandas as pd
-import datetime
 
 
 def format_date(dict):
