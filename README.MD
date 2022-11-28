@@ -12,23 +12,6 @@ productivity towards your time managing skills. it allows you to plan out your t
 
 <!---main is only importing taskgui lol-->
 
-- `main.py` - <sub> starts up the task gui file [temporary program]
-  </sub>
-
-# Welcome to Task Manager!
-
-###### what is it about?
-
-<!---inform the user what this project is about and what its capabilities are?--->
-<sub>
-Task Manager is a tool that allows you, <strong>The User</strong>, to keep track of any assignments due and promote
-productivity towards your time managing skills. it allows you to plan out your tasks and let you know what needs to be worked on first as a priority rather than focus on assignments that can be done at the same day. 
-</sub>
-
-### How does it work?
-
-<!---main is only importing taskgui lol-->
-
 - `main.py`
   - <sub> starts up the task gui file [temporary program]</sub>
 ###### Gui Functionality
