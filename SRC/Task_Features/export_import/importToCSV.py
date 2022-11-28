@@ -13,7 +13,7 @@ def format_date(dict):
     mm = '0'+ mm
   
   return f"{mm}/{dd}/{yyyy}" 
- 
+
 def format_time(dict):
   hour = str(dict['hour'])
   minute = str(dict['min'])
