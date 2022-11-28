@@ -95,5 +95,9 @@ first, it is deleting the window calendar view list, if it is open, then it is g
 </sub>
 
 
+### How to start Program?
 
+start the program via the main.py and taskgui.py should activate
+
+<sub><strong>if the program is having issues with codespace, try running it via vscode and using 'pip install -r requirements.txt' in the shell command before running the program.</strong></sub>
 
