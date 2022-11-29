@@ -12,9 +12,9 @@ def cal_maker(filen):
                 dpg.add_table_column(label=file.iloc[i]['name'])
                 with dpg.table_row(label="contents"):
                     dpg.add_button(label=f"Date Due: {file.iloc[i]['date']}\nTime Due: {file.iloc[i]['time']}\n{file.iloc[i]['priority']}\n{file.iloc[i]['status']}")
+            i += 1
     # adding a tip as a hover for date picker showing what assignment is due
     # dpg.add_date_picker(tag="date",default_value={'year': current_year - 1900})
-            i += 1
         with dpg.group(horizontal=True):
           #add functionality towards the sorting buttons. have them call cal_maker with the new csv file they create.
             dpg.add_button(label="Sort by Due Date", callback=sm.sortDueDate)
