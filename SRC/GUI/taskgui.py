@@ -1,3 +1,7 @@
+################################################
+# Credit: Damian Gonzalez, Angelo Brian Navilon,
+# Devin Hunter, James Luke Wooldridge
+################################################
 import dearpygui.dearpygui as dpg
 import SRC.GUI.guifunctions as gui
 import SRC.Calendar_Features.Taskcalendar as cal
@@ -19,7 +23,8 @@ with dpg.window(label="Main Menu", tag="Primary Window"):
       #send a command towards the Taskcalendar.py file and that will be using tkinter to make a calendar
       dpg.add_menu_item(label="Open Calendar", callback=cal.cal_safe)
     with dpg.menu(label=" Options "):
-      dpg.add_menu_item(label="See specific time left for assignment", callback=gui.set_reminder)
+      dpg.add_menu_item(label="See specific time left for assignment",
+                        callback=gui.set_reminder)
     with dpg.menu(label=" Exit Application "):
       #send exit command using function
       dpg.add_menu_item(label="Confirm Exit", callback=gui.destroy_main)
