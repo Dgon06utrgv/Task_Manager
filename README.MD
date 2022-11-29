@@ -84,6 +84,10 @@ start the program via the main.py and taskgui.py should activate
 
 <sub><strong>if the program is having issues with codespace, try running it via vscode and using 'pip install -r requirements.txt' in the shell command before running the program.</strong></sub>
 
+### disclaimer:
+
+for csv file, it must not be empty, please use the examples provided to prevent it from failing the porgram.
+
 ###### For test online:
 
 https://replit.com/@CSCIPYTHON/Task-Manager?v=1
