@@ -1,7 +1,3 @@
 name,date,time,priority,description,type,status
-name1,11/19/2022,4:00:09PM,Semi-Important,MATRIX PUZZLE,for physics,In Progress
-name2,11/20/2022,6:00:02PM,Semi-Important,Coding Algorithms,for computer science,In Progress
-name3,11/22/2022,12:00:00AM,Non-Important,complex problems,for mathematics,In Progress
-new,01/01/2022,00:00:00AM,Non-important,new,new,In Progress
-Name15,01/01/2022,00:00:00AM,Semi-important,Allow access to sdkfjasdlkfjdaslfkja;,asdfadsfsdf,In Progress
-Allowance,01/01/2022,00:00:00AM,Priority-important,Entrance,Gate,In Progress
+Example,11/19/2022,4:00:09PM,Semi-Important,Description Example,Type Example,In Progress
+Example2,10/10/2022,12:00:00PM,Priority-Important,Description Example,Type Example,Done
