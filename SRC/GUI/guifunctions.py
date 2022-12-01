@@ -195,7 +195,8 @@ def save_ex(sender, app_data):
   if dpg.get_value("Name"):
     grab_attributes(sender, app_data)
     destroy_import_module()
-    update_tabs("task_list.csv")
+    dpg.delete_item("Task Bar")
+    printTabs("task_list.csv")
   else:
     with dpg.window(label="Error", tag="error"):
       dpg.add_text("Can't add assignment without a name!")
@@ -206,7 +207,8 @@ def save_addpass(sender, app_data):
   if dpg.get_value("Name"):
     grab_attributes(sender, app_data)
     recycle_window()
-    update_tabs("task_list.csv")
+    dpg.delete_item("Task Bar")
+    printTabs("task_list.csv")
   else:
     with dpg.window(label="Error", tag="error"):
       dpg.add_text("Can't add assignment without a name!")

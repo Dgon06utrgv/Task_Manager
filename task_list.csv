@@ -1,3 +1,4 @@
 name,date,time,priority,description,type,status
-Example,11/19/2022,4:00:09PM,Semi-Important,Description Example,Type Example,In Progress
-Example2,10/10/2022,12:00:00PM,Priority-Important,Description Example,Type Example,Done
+Example1 ,01/01/2022,00:00:00AM,Non-important,Desc Example,Type Example,Not Done
+Example2,01/01/2022,00:00:00AM,Semi-important,Desc Example,Type Example,In Progress
+Example 3,01/01/2022,00:00:00AM,Priority-important,Desc Example,Type Example 2,Not Done
